@@ -37,6 +37,13 @@
     background-color: white;
     font-size: max(1vw, 13px);
     border-radius: 50px;
+    cursor: pointer;
+}
+
+.header-contents button:hover {
+    background-color: #fff4f2;
+    transform: scale(1.1);
+    transition: 0.3s;
 }
 
 @media (max-width:1050px) {

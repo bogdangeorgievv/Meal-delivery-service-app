@@ -47,6 +47,10 @@
     cursor: pointer;
 }
 
+.navbar .logo {
+    width: 200px;
+}
+
 .navbar-search-icon {
     position: relative;
 }
@@ -62,9 +66,7 @@
 }
 
 @media (max-width:1050px) {
-    .navbar .logo {
-        width: 140px;
-    }
+    
     .navbar-menu{
         gap: 20px;
         font-size: 17px;
@@ -82,7 +84,7 @@
 
 @media (max-width:900px) {
     .navbar .logo {
-        width: 120px;
+        width: 140px;
     }
     .navbar-menu{
         gap: 15px;
