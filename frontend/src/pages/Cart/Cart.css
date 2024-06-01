@@ -6,6 +6,7 @@
     display: grid;
     grid-template-columns: 1fr 1.5fr 1fr 1fr 1fr 0.5fr 0.5fr;
     text-align: center;
+    align-items: center;
     color: grey;
     font-size: max(1vw, 12px);
 }
@@ -29,12 +30,23 @@
 
 .cart-items-item .minus {
     cursor: pointer;
+    width: 25px;
     
 }
 
 .cart-items-item .plus {
     cursor: pointer;
-    
+    width: 25px;
+}
+
+.cart-items-item .minus:hover {
+    transform: scale(1.2);
+    transition: 0.3s;
+}
+
+.cart-items-item .plus:hover {
+    transform: scale(1.2);
+    transition: 0.3s;
 }
 
 .cart-bottom {

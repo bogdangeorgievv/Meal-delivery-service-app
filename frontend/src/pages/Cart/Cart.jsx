@@ -1,5 +1,6 @@
 import React, { useContext } from "react";
 import "./Cart.css";
+import { assets } from "../../assets/assets";
 import { StoreContext } from "../../context/StoreContext";
 import { useNavigate } from 'react-router-dom'
 
@@ -35,12 +36,12 @@ const Cart = () => {
                   <p>${item.price}</p>
                   <p>{cartItems[item._id]}</p>
                   <p>${item.price * cartItems[item._id]}</p>
-                  <p onClick={() => removeFromCart(item._id)} className="minus">
-                    - 
-                  </p>
-                  <p onClick={() => addToCart(item._id)} className="plus">
-                    +
-                  </p>
+                  <img onClick={() => removeFromCart(item._id)} src={assets.remove_icon_red} alt="" className="minus">
+                     
+                  </img>
+                  <img onClick={() => addToCart(item._id)} src={assets.add_icon_green} alt="" className="plus">
+                    
+                  </img>
                 </div>
                 <hr />
               </div>
