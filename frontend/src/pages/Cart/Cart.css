@@ -31,7 +31,6 @@
 .cart-items-item .minus {
     cursor: pointer;
     width: 25px;
-    
 }
 
 .cart-items-item .plus {
@@ -123,5 +122,14 @@
     }
     .cart-promocode {
         justify-content: start;
+    }
+}
+
+@media (max-width: 500px) {
+    .cart-items-item .minus {
+        width: 20px;   
+    }
+    .cart-items-item .plus {
+        width: 20px;
     }
 }
