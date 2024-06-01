@@ -5,7 +5,7 @@
 .cart-items-title {
     display: grid;
     grid-template-columns: 1fr 1.5fr 1fr 1fr 1fr 0.5fr 0.5fr;
-    align-items: center;
+    text-align: center;
     color: grey;
     font-size: max(1vw, 12px);
 }
@@ -13,10 +13,12 @@
 .cart-items-item {
     margin: 10px 0px;
     color: black;
+    
 }
 
 .cart-items-item img {
     width: 50px;
+    margin: auto;
 }
 
 .cart hr {
