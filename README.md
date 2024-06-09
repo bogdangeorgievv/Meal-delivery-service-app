@@ -16,7 +16,6 @@ It is made using **HTML, CSS, JavaScript, React.js, Vite**
   
 - **Login, Register** 
 
-*The focus on that website is functionality, rather than appearance*
 
 <h1>Getting started:</h1>
 
@@ -24,37 +23,23 @@ It is made using **HTML, CSS, JavaScript, React.js, Vite**
 
 2. Open your console and enter:
 
-![image](https://github.com/bogdangeorgievv/CRUD-web-application-Eventer/assets/140177649/3183b50c-4383-4288-bd9b-1f2c3ad4ecd3)
-
-This will initiate the HTTP server, which will be accessible at http://localhost:3000.
+![npm run dev](https://github.com/bogdangeorgievv/Meal-delivery-service-app/assets/140177649/66ed9e00-f4b4-4a82-bb4c-d18e08bd6cce)
 
 3. Activate the server:
 
-In a new terminal window, navigate to the server folder and execute:
-
-![image](https://github.com/bogdangeorgievv/CRUD-web-application-Eventer/assets/140177649/259495f3-e5aa-413c-811f-f95b484b3bfd)
-
 You'll receive a confirmation message:
 
-![image](https://github.com/bogdangeorgievv/CRUD-web-application-Eventer/assets/140177649/f49bef6a-1c99-4a37-a319-033ecbd04528)
-   
-Now, your server is up and running, ready to handle requests.
+![localhost](https://github.com/bogdangeorgievv/Meal-delivery-service-app/assets/140177649/356180f6-b8eb-4d41-a794-bf74bd8ca0d4)
 
-4. Write in the browser  http://localhost:3000
+4. Write in the browser  http://localhost:5173
 
 This page will load:
 
-![image](https://github.com/bogdangeorgievv/CRUD-web-application-Eventer/assets/140177649/948e844b-80b3-4f8a-bd10-90ee2c7313de)
+![homepage](https://github.com/bogdangeorgievv/Meal-delivery-service-app/assets/140177649/c1035853-5402-4c1e-a777-6138cc9a0637)
 
+You can browse different dishes
+![types](https://github.com/bogdangeorgievv/Meal-delivery-service-app/assets/140177649/fa4f283f-50bf-468b-9179-c67b0110d965)
 
-Mock login details: 
+You can edit your cart
 
-Email: john@abv.bg 
-Password: 123456
-
-Once logged in you can Add/Delete/Edit Events :
-![image](https://github.com/bogdangeorgievv/CRUD-web-application-Eventer/assets/140177649/e9f45480-3779-400d-9864-06b9175f7712)
-
-![image](https://github.com/bogdangeorgievv/CRUD-web-application-Eventer/assets/140177649/70d88f46-eda1-4342-9eb7-87f5d4c59158)
-
-![image](https://github.com/bogdangeorgievv/CRUD-web-application-Eventer/assets/140177649/e7cc4c35-d535-4b0a-9869-dbd4bc79dc38)
+![cart](https://github.com/bogdangeorgievv/Meal-delivery-service-app/assets/140177649/dff9499c-6cf0-4b61-822f-d792c221077a)
