@@ -7,9 +7,13 @@ This web application allows users to choose from different  types of dishes, sel
 It is made using **HTML, CSS, JavaScript, React.js, Vite**
 
 <h2>Features</h2>
+
 - **Dish Selection** - choose from different types
+
 - **User-Friendly Experience** - clean and intuitive interface, making it easy for users to browse, select, and customize their orders.
+  
 - **Dynamic Cart Management** - easily view and manage selected dishes in your cart. Adjust quantities, remove items, and review your order before proceeding to checkout.
+  
 - **Login, Register** 
 
 *The focus on that website is functionality, rather than appearance*
